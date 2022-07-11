@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+.background {
+  background-color: #ffeaa7;
+  min-height: 100vh;
+  padding: 2rem;
+  column-count: 4;
+  column-gap: 1rem;
+  width: 100%;
+  margin-top: 100px;
+  color: hsl(198, 1%, 29%);
+  font-family: "Architects Daughter", cursive;
+}
+
+@media only screen and (max-width: 920px) {
+  .background {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,39 @@
+* {
+  font-family: monospace;
+}
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+.fab {
+  display: flex;
+  z-index: 1;
+  flex-direction: column-reverse;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}

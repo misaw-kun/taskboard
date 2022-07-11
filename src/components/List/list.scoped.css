@@ -1,0 +1,91 @@
+.list {
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  break-inside: avoid;
+  background-size: 25px 25px;
+  border-radius: 10px;
+  box-shadow: 4px 3px 7px 2px;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  -moz-fit-width: fit-content;
+  display: inline-table;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.completed h2 {
+  transform: rotate(-2deg);
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: aquamarine;
+}
+
+.heading h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.1rem;
+  margin: 0.1rem;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #fdcb6e;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 70%;
+}
+
+.add {
+  border-radius: 10px;
+}
+
+.add:hover {
+  background-color: hsl(198, 1%, 29%);
+  color: white;
+}
+
+.custom-list {
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  font-size: 1.2rem;
+  margin-top: 5%;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 920px) {
+  .list {
+    min-width: 40vh;
+    max-width: 70vh;
+    text-overflow: ellipsis;
+  }
+
+  .add {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+  }
+}

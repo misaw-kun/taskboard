@@ -1,0 +1,5 @@
+.contain {
+  min-height: 100vh;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 30px 30px;
+}
